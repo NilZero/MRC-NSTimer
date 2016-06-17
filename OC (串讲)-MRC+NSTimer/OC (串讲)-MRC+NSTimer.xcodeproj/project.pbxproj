@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC3215D41CC1D9C800FED3C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3215D31CC1D9C800FED3C5 /* main.m */; };
+		CC3215DC1CC1DB7500FED3C5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3215DB1CC1DB7500FED3C5 /* Person.m */; };
+		CC3215DF1CC1DE6400FED3C5 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3215DE1CC1DE6400FED3C5 /* Student.m */; };
+		CC3215E21CC1DF6C00FED3C5 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3215E11CC1DF6C00FED3C5 /* Car.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC3215CE1CC1D9C800FED3C5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC3215D01CC1D9C800FED3C5 /* OC (串讲)-MRC+NSTimer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OC (串讲)-MRC+NSTimer"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3215D31CC1D9C800FED3C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC3215DA1CC1DB7500FED3C5 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CC3215DB1CC1DB7500FED3C5 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		CC3215DD1CC1DE6400FED3C5 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		CC3215DE1CC1DE6400FED3C5 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		CC3215E01CC1DF6C00FED3C5 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		CC3215E11CC1DF6C00FED3C5 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC3215CD1CC1D9C800FED3C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC3215C71CC1D9C800FED3C5 = {
+			isa = PBXGroup;
+			children = (
+				CC3215D21CC1D9C800FED3C5 /* OC (串讲)-MRC+NSTimer */,
+				CC3215D11CC1D9C800FED3C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC3215D11CC1D9C800FED3C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC3215D01CC1D9C800FED3C5 /* OC (串讲)-MRC+NSTimer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC3215D21CC1D9C800FED3C5 /* OC (串讲)-MRC+NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				CC3215D31CC1D9C800FED3C5 /* main.m */,
+				CC3215DA1CC1DB7500FED3C5 /* Person.h */,
+				CC3215DB1CC1DB7500FED3C5 /* Person.m */,
+				CC3215DD1CC1DE6400FED3C5 /* Student.h */,
+				CC3215DE1CC1DE6400FED3C5 /* Student.m */,
+				CC3215E01CC1DF6C00FED3C5 /* Car.h */,
+				CC3215E11CC1DF6C00FED3C5 /* Car.m */,
+			);
+			path = "OC (串讲)-MRC+NSTimer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC3215CF1CC1D9C800FED3C5 /* OC (串讲)-MRC+NSTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3215D71CC1D9C800FED3C5 /* Build configuration list for PBXNativeTarget "OC (串讲)-MRC+NSTimer" */;
+			buildPhases = (
+				CC3215CC1CC1D9C800FED3C5 /* Sources */,
+				CC3215CD1CC1D9C800FED3C5 /* Frameworks */,
+				CC3215CE1CC1D9C800FED3C5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OC (串讲)-MRC+NSTimer";
+			productName = "OC (串讲)-MRC+NSTimer";
+			productReference = CC3215D01CC1D9C800FED3C5 /* OC (串讲)-MRC+NSTimer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC3215C81CC1D9C800FED3C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = QingYun;
+				TargetAttributes = {
+					CC3215CF1CC1D9C800FED3C5 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = CC3215CB1CC1D9C800FED3C5 /* Build configuration list for PBXProject "OC (串讲)-MRC+NSTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC3215C71CC1D9C800FED3C5;
+			productRefGroup = CC3215D11CC1D9C800FED3C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC3215CF1CC1D9C800FED3C5 /* OC (串讲)-MRC+NSTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC3215CC1CC1D9C800FED3C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3215DC1CC1DB7500FED3C5 /* Person.m in Sources */,
+				CC3215D41CC1D9C800FED3C5 /* main.m in Sources */,
+				CC3215E21CC1DF6C00FED3C5 /* Car.m in Sources */,
+				CC3215DF1CC1DE6400FED3C5 /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC3215D51CC1D9C800FED3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC3215D61CC1D9C800FED3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC3215D81CC1D9C800FED3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC3215D91CC1D9C800FED3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC3215CB1CC1D9C800FED3C5 /* Build configuration list for PBXProject "OC (串讲)-MRC+NSTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3215D51CC1D9C800FED3C5 /* Debug */,
+				CC3215D61CC1D9C800FED3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3215D71CC1D9C800FED3C5 /* Build configuration list for PBXNativeTarget "OC (串讲)-MRC+NSTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3215D81CC1D9C800FED3C5 /* Debug */,
+				CC3215D91CC1D9C800FED3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC3215C81CC1D9C800FED3C5 /* Project object */;
+}
